@@ -53,9 +53,10 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
+  background-color: var(--color-golden);
   color: var(--color-black);
   font-family: var(--font-base);
+  text-transform: capitalize;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 28px;
@@ -65,6 +66,11 @@
   border: none;
   outline: none;
   cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.custom__button:hover {
+  color: rgb(235, 219, 219);
 }
 
 .p__cormorant {
@@ -91,7 +97,7 @@
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-golden);
-  font-size: 64px;
+  font-size: 54px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -139,11 +145,19 @@
   .app__wrapper_img img {
     width: 100%;
   }
+  .headtext__cormorant {
+    font-size: 65px;
+    line-height: 70px;
+  }
 }
 
 @media screen and (max-width: 850px) {
   .section__padding {
     padding: 4rem;
+  }
+  .headtext__cormorant {
+    font-size: 46px;
+    line-height: 70px;
   }
 }
 
@@ -171,7 +185,7 @@
   }
 
   .headtext__cormorant {
-    font-size: 45px;
+    font-size: 35px;
     line-height: 70px;
   }
 }
