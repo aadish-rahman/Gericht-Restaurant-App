@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Gericht Restaurant App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+Gericht Restaurant App is a React-based web application aimed at creating an immersive restaurant-themed experience. The primary goals of the app include showcasing a special menu, a standard menu, food categorized in various ways, and implementing an AI food generation feature.
 
-In the project directory, you can run:
+## Project Status
 
-### `npm start`
+- **Home Frontend**: The frontend for the home page is completed, providing users with an initial glimpse of the restaurant's offerings. Here's a glimpse of the frontend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="940" alt="image" src="https://github.com/aadish-rahman/Gericht-Restaurant-App/assets/152465910/c4aa6a69-977c-499c-81b6-ed42975792b8">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="944" alt="image" src="https://github.com/aadish-rahman/Gericht-Restaurant-App/assets/152465910/537ec8e2-ca09-40f7-878d-09ad01ddaca9">
 
-### `npm test`
+<img width="886" alt="image" src="https://github.com/aadish-rahman/Gericht-Restaurant-App/assets/152465910/6c9414e1-0921-4121-9d9b-c062e03540bc">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<img width="937" alt="image" src="https://github.com/aadish-rahman/Gericht-Restaurant-App/assets/152465910/35d27ad6-2bb1-4da0-8f03-2628e7a70a73">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## To-Do List
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Special Menu Design**: Work on designing the Special Menu section, including details of featured foods, eye-catching visuals, and a user-friendly interface.
 
-### `npm run eject`
+2. **Menu Categories**: Implement a categorized menu system to help users easily navigate and find their desired dishes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **AI Food Generation**: Initiate the development of the AI food generation feature, allowing for unique and creative food suggestions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to Contribute
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! If you'd like to contribute to the Gericht Restaurant App, please follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Open a pull request, explaining the changes you've made.
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the project locally, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository: `git clone https://github.com/aadish-rahman/Gericht-Restaurant-App.git`
+2. Navigate to the project directory: `cd gericht-restaurant-app`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-### Code Splitting
+The app should now be running locally at [http://localhost:3000](http://localhost:3000).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used
 
-### Analyzing the Bundle Size
+- React
+- JavaScript
+- HTML/CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Structure
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
