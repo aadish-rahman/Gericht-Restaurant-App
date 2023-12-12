@@ -14,17 +14,21 @@ Gericht Restaurant App is a React-based web application aimed at creating an imm
 
 <img width="886" alt="image" src="https://github.com/aadish-rahman/Gericht-Restaurant-App/assets/152465910/6c9414e1-0921-4121-9d9b-c062e03540bc">
 
-
 <img width="937" alt="image" src="https://github.com/aadish-rahman/Gericht-Restaurant-App/assets/152465910/35d27ad6-2bb1-4da0-8f03-2628e7a70a73">
 
+<br>
+
+- **AI Food Generation**: The AI Food section of the project focuses on generating Dish details and Dish image using AI only by providing ingredients
+
+![Alt text](image-2.png)
+
+![Alt text](image.png)
 
 ## To-Do List
 
 1. **Special Menu Design**: Work on designing the Special Menu section, including details of featured foods, eye-catching visuals, and a user-friendly interface.
 
 2. **Menu Categories**: Implement a categorized menu system to help users easily navigate and find their desired dishes.
-
-3. **AI Food Generation**: Initiate the development of the AI food generation feature, allowing for unique and creative food suggestions.
 
 ## How to Contribute
 
@@ -43,7 +47,9 @@ To run the project locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/aadish-rahman/Gericht-Restaurant-App.git`
 2. Navigate to the project directory: `cd gericht-restaurant-app`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+4. Make sure to add your OPEN AI API key in your Config/openaiConfig file.
+   ![Alt text](image-1.png)
+5. Start the development server: `npm start`
 
 The app should now be running locally at [http://localhost:3000](http://localhost:3000).
 
@@ -52,6 +58,3 @@ The app should now be running locally at [http://localhost:3000](http://localhos
 - React
 - JavaScript
 - HTML/CSS
-
-## Project Structure
-
