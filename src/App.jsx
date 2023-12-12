@@ -1,9 +1,10 @@
 import React from "react";
-
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components";
 import {
   AboutUs,
+  AiFood,
   Chef,
   FindUs,
   Footer,
@@ -15,18 +16,30 @@ import {
 } from "./container";
 
 const App = () => (
-  <div>
-    <Navbar />
-    <Header />
-    <AboutUs />
-    <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer />
-  </div>
+  <Router>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <AboutUs />
+              <SpecialMenu />
+              <Chef />
+              <Intro />
+              <Laurels />
+              <Gallery />
+              <FindUs />
+              <Footer />
+            </>
+          }
+        />
+        <Route path="/aifood" element={<AiFood />} />
+      </Routes>
+    </div>
+  </Router>
 );
 
 export default App;
